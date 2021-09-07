@@ -1,0 +1,115 @@
+.test-head{
+    display: grid;
+    place-items:center;
+    background-color: #dadbd3;
+    background-image: url("harry.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.test-body{
+    margin-top: -50px;
+    display: flex;
+    background-color: #ededede8;
+    height: 60vh;
+    width:40vw;
+    box-shadow: -1px 4px 20px -6px rgb(156, 156, 156);
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.test-body>h1{
+    display: flex;
+    text-align:center;
+
+    font-family: 'Poiret One', cursive;
+    padding:20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.test-body>button{
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 50px;
+    width: 100%;
+
+    border:1px solid rgba(129, 127, 127, 0.658);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+
+    font-family:'Poiret One', cursive;
+    font-size: 30px;
+}
+.test-body>button:hover{
+    background-color: rgb(156, 156, 156);
+    color:rgb(255, 253, 253);
+    transition: .5s ease-in-out;
+}
+
+
+
+
+.test-head-houses{
+    display: grid;
+    place-items:center;
+    background-color: #dadbd3;
+    height: 100vh;
+
+    background-image: url("houses.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.score{
+    margin-top: -50px;
+    display: flex;
+    background-color: #edededf6;
+    height: 75vh;
+    width:40vw;
+    box-shadow: -1px 4px 20px -6px rgba(211, 209, 209, 0.671);
+    border-radius: 15px;
+
+    flex-direction: column;
+}
+.score>img{
+    display: flex;
+    height: 200px;
+    width: 200px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.score>h1{
+    font-family:'Poiret One', cursive;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.score>h2{
+    display: flex;
+    text-align:center;
+    font-family: 'WindSong', cursive;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.score>p{
+    font-family:'Poiret One', cursive;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
